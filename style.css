@@ -1,0 +1,84 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: rgb(222, 250, 215);
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 3em;
+    background-color: rgb(223, 58, 29);
+}
+.pizzatime{}
+
+main{
+    background-color: rgb(112, 112, 0);
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizzacontainer{
+width: 95%;
+height: 95%;
+background-color: rgb(165, 30, 30);
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#pizzaPicker{
+    margin: 1%;
+    width: 47.5%;
+    height: 47.5%;
+    background-color:aqua;
+    display:flex;
+    gap:1%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#crust{
+    width: 15em;
+}
+#sauce{
+    width: 15em;
+}
+#justGimMePizza{
+    margin: 1%;
+    width: 47.5%;
+    height: 47.5%;
+    background-color:rgb(51, 255, 0);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#pizzaoven{
+    margin: 1%;
+    width: 95%;
+    height: 45%;
+    background-color:rgb(255, 0, 200);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

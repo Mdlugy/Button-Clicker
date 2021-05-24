@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class = "pizzatime"> Pizza Time</h1>
+    </header>
+    <main>
+        <!-- custom pizza maker  -->
+        <div class="pizzacontainer">
+            <div id="pizzaPicker">
+                <h3> Pick your own Pizza </h3>
+                <input type="text" name="crust" id="crust" placeholder="please enter a crust type">
+                <input type="text" name="sauce" id = "sauce" placeholder="please enter a sauce type">
+                How many Cheeses?<input type="number" name = "cheesenum" id = "cheesenum" min="1" max="5" placeholder="how many types of cheese">
+                How many Toppings?<input type="number" name = "toppingsnum" id = "toppingsnum" min="0" max="10" placeholder="how many types of toppings">
+                <button type="button" name ="pizzaSubmit" id="pizzaSubmit" onclick = "pizzaSubmit()" value="place your order">place your order</button>
+            </div>
+            <div id="justGimMePizza"> 
+                <button type="button" name ="pizzaRandom" id="pizzaRandom" onclick="pizzaRandom()" value="Just Give me Whatever">Just Give me Whatever</button>
+            </div>
+        
+            <div id="pizzaoven">
+            <h2>Here's your pizza</h2>
+            <!-- <div id = "crustOut" > </div>
+            <div id = "sauceOut" >adasd</div>
+            <div id = "cheesesOut" >asada</div>
+            <div id = "toppingsOut" >asdads</div> -->
+            <div>you got a <span id = "crustOut" ></span> pizza </div>
+            <div>with  <span id = "sauceOut" ></span> Sauce,</div>
+            <div> <span id = "cheesesOut" ></span>Cheese</div>
+            <div><span id = "toppingsOut" ></span></div>
+            </div>
+            
+        </div>
+    </main>
+
+<script src="./script.js"></script>
+</body>
+</html>
